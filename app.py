@@ -1,5 +1,7 @@
 from flask import flask, render_template, request, jsonify
 from pymongo import MongoClient
+from bs4 import BeautifulSoup
+from pymongo import MongoClient
 
 
 import os
