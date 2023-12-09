@@ -3,7 +3,7 @@ from pymongo import MongoClient
 
 
 client = MongoClient("mongodb+srv://dewi:Lukas123@dewi.qem00vl.mongodb.net/?retryWrites=true&w=majority")
-db = client.bookprojec
+db = client.fanproject
 
 
 app = flask(__name__)
